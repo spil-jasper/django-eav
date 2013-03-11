@@ -33,7 +33,7 @@ Classes
 -------
 '''
 
-from datetime import datetime
+import django.utils.timezone as datetime
 
 from django.db import models
 from django.core.exceptions import ValidationError
